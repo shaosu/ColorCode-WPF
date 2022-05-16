@@ -166,9 +166,9 @@ namespace ColorCode
                 //Background isn't supported, but a workaround could be created.
 
                 if (italic)
-                    Run.FontStyle = System.Windows.FontStyles.Italic; //BUG:Null FontStyles.Italic
+                    Run.FontStyle = System.Windows.FontStyles.Italic; // FontStyles.Italic
                 if (bold)
-                    Run.FontWeight = System.Windows.FontWeights.Bold;//BUG:Null  FontWeights.Bold;
+                    Run.FontWeight = System.Windows.FontWeights.Bold;// FontWeights.Bold;
             }
 
             private void GetStyleInsertionsForCapturedStyle(Scope scope, ICollection<TextInsertion> styleInsertions)
